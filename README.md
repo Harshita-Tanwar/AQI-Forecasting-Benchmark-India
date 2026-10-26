@@ -4,14 +4,15 @@ Comparative analysis of **LSTM, Gradient Boosting, Random Forest, SVR, and Multi
 
 ## Key Results
 
-| Model | R² | RMSE | MAE |
+| Model | R² | RMSE | MAE | Accuracy |
 |-------|-----|------|-----|
-| **LSTM** | 0.58 | 29.25 | 21.35  |
-| **Gradient Boosting** | 0.70 | 25.79 | 18.86 |
-| **Random Forest** | 0.72 | 25.39 | 19.14 |
-| **SVR** | 0.54 | 29.24 | 21.44 |
-| **MLR** | 0.60 | 29.62 | 23.27 |
-
+| **LSTM** | 0.57 | 37.3 | 25.5 | 70% |
+| **Gradient Boosting** | 0.67 | 33.6 | 22.2 | 72% |
+| **Random Forest** | 0.67 | 33.1 | 23.3 | 73% |
+| **SVR** | 0.65 | 35.0 | 24.9 | 71% |
+| **MLR** | 0.47 | 36.8 | 27.0 | 69% |
+| **GRU** | 0.58 | 36.2 | 25.1 | 71% |
+| **Persistence** | 0.64 | 35.7 | 22.5 | 75% |
 
 ## Project Structure
 
