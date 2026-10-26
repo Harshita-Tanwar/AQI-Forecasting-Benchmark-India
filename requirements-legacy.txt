@@ -1,0 +1,3 @@
+# Extra packages for opening the original notebooks in legacy/
+jupyter
+seaborn
